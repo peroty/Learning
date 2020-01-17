@@ -6,7 +6,7 @@
     <description>Recent content on Learning Linux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jan 2020 22:44:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 22:04:47 -0500</lastBuildDate>
     
 	<atom:link href="https://peroty.github.io/Learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Process to post</title>
       <link>https://peroty.github.io/Learning/posts/new-post-process/</link>
-      <pubDate>Thu, 16 Jan 2020 22:44:00 -0500</pubDate>
+      <pubDate>Thu, 16 Jan 2020 22:04:47 -0500</pubDate>
       
       <guid>https://peroty.github.io/Learning/posts/new-post-process/</guid>
-      <description> Write a post in Typora (or any other markdown-friendly app). Save to Hugo Learning Folder in Dropbox. Run hugo to generate static files in docs folder. Open Github Desktop and Commit to master. In GH Desktop, Push Origin up to Github. Refresh GH page. See new post.  </description>
+      <description> Write a post in Typora (or any other markdown-friendly app). Save to Hugo Learning Folder in Dropbox. Run hugo to generate static files in docs folder. (This step may be optional.) Open Github Desktop and Commit to master. In GH Desktop, Push Origin up to Github. Refresh GH page. See new post.  </description>
     </item>
     
     <item>
@@ -77,6 +77,16 @@ I learned this is what the noauto option is for when mounting a share.</descript
       
       <guid>https://peroty.github.io/Learning/posts/hello-world/</guid>
       <description>This is the first post of Hugo. It&#39;s always exciting to setup something new and see if you did it all correctly. Or not.</description>
+    </item>
+    
+    <item>
+      <title>Simple Thoughts</title>
+      <link>https://peroty.github.io/Learning/posts/simple-thoughts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peroty.github.io/Learning/posts/simple-thoughts/</guid>
+      <description>If I were to write my thoughts tonight. About Hugo and finally (maybe) getting it to work. I&#39;m pretty excited actually. It seems as it I&#39;ve gotten the process down and it&#39;s repeatable and I&#39;m learning it.
+I can start putting those piles of .md files into something prettier and easier to deal with than being lost to the sands of time.</description>
     </item>
     
   </channel>
