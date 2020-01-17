@@ -55,6 +55,15 @@
     </item>
     
     <item>
+      <title>Process to post</title>
+      <link>https://peroty.github.io/Learning/posts/new-post-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peroty.github.io/Learning/posts/new-post-process/</guid>
+      <description> Write a post in Typora (or any other markdown-friendly app). Save to Hugo Learning Folder in Dropbox. Run hugo to generate static files in docs folder. Open Github Desktop and commit, In GH Desktop, push Origin up to Github. Refresh GH page. See new post.  </description>
+    </item>
+    
+    <item>
       <title>Ubuntu hangs trying to mount a share</title>
       <link>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
