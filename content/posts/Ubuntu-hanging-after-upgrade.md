@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu hangs trying to mount a share"
-date: 2019-12-20T10:04:47 2020-01-16T19:02:41
+date: 2020-01-16T19:02:41-05:00
 draft: false
 category: learning, linux
 ---

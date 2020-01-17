@@ -6,15 +6,40 @@
     <description>Recent content in Posts on Learning Linux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2019 10:04:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 19:02:41 -0500</lastBuildDate>
     
 	<atom:link href="https://peroty.github.io/Learning/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ubuntu hangs trying to mount a share</title>
+      <link>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</link>
+      <pubDate>Thu, 16 Jan 2020 19:02:41 -0500</pubDate>
+      
+      <guid>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</guid>
+      <description>After upgrading my Ubuntu desktop box from 18.04 to 20.x, after the reboot, the startup process hung trying to mount an NFS share.
+a start job is running for /mnt/location
+To resolve this, I had to boot into recovery mode.
+Hold left shift at startup
+Then edit the fstab file
+nano /etc/fstab
+And removed the NFS shares I was mounting on startup.
+I learned this is what the noauto option is for when mounting a share.</description>
+    </item>
+    
+    <item>
+      <title>New File Added to Dropbox</title>
+      <link>https://peroty.github.io/Learning/posts/test-post/</link>
+      <pubDate>Fri, 20 Dec 2019 10:04:47 -0500</pubDate>
+      
+      <guid>https://peroty.github.io/Learning/posts/test-post/</guid>
+      <description>This is my test post.</description>
+    </item>
+    
+    <item>
       <title>Today&#39;s Interesting Links - Dec 20</title>
       <link>https://peroty.github.io/Learning/posts/dec20-links/</link>
-      <pubDate>Fri, 20 Dec 2019 10:04:47 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2019 10:04:47 -0500</pubDate>
       
       <guid>https://peroty.github.io/Learning/posts/dec20-links/</guid>
       <description>Uses This / Jordan B. L. Smith
@@ -46,37 +71,12 @@
     </item>
     
     <item>
-      <title>New File Added to Dropbox</title>
-      <link>https://peroty.github.io/Learning/posts/test-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://peroty.github.io/Learning/posts/test-post/</guid>
-      <description>This is my test post.</description>
-    </item>
-    
-    <item>
       <title>Process to post</title>
       <link>https://peroty.github.io/Learning/posts/new-post-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://peroty.github.io/Learning/posts/new-post-process/</guid>
-      <description> Write a post in Typora (or any other markdown-friendly app). Save to Hugo Learning Folder in Dropbox. Run hugo to generate static files in docs folder. Open Github Desktop and commit, In GH Desktop, push Origin up to Github. Refresh GH page. See new post.  </description>
-    </item>
-    
-    <item>
-      <title>Ubuntu hangs trying to mount a share</title>
-      <link>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</guid>
-      <description>After upgrading my Ubuntu desktop box from 18.04 to 20.x, after the reboot, the startup process hung trying to mount an NFS share.
-a start job is running for /mnt/location
-To resolve this, I had to boot into recovery mode.
-Hold left shift at startup
-Then edit the fstab file
-nano /etc/fstab
-And removed the NFS shares I was mounting on startup.
-I learned this is what the noauto option is for when mounting a share.</description>
+      <description> Write a post in Typora (or any other markdown-friendly app). Save to Hugo Learning Folder in Dropbox. Run hugo to generate static files in docs folder. Open Github Desktop and Commit to master. In GH Desktop, Push Origin up to Github. Refresh GH page. See new post.  </description>
     </item>
     
   </channel>
