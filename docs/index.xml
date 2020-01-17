@@ -46,6 +46,15 @@
     </item>
     
     <item>
+      <title>New File Added to Dropbox</title>
+      <link>https://peroty.github.io/Learning/posts/test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peroty.github.io/Learning/posts/test-post/</guid>
+      <description>This is my test post.</description>
+    </item>
+    
+    <item>
       <title>Ubuntu hangs trying to mount a share</title>
       <link>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
