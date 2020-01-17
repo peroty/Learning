@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Ubuntu hangs trying to mount a share // Learning Linux</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://peroty.github.io/Learning/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ubuntu hangs trying to mount a share"/>
+<meta name="twitter:description" content="After upgrading my Ubuntu desktop box from 18.04 to 20.x, after the reboot, the startup process hung trying to mount an NFS share.
+a start job is running for /mnt/location
+To resolve this, I had to boot into recovery mode.
+Hold left shift at startup
+Then edit the fstab file
+nano /etc/fstab
+And removed the NFS shares I was mounting on startup.
+I learned this is what the noauto option is for when mounting a share."/>
+
+    <meta property="og:title" content="Ubuntu hangs trying to mount a share" />
+<meta property="og:description" content="After upgrading my Ubuntu desktop box from 18.04 to 20.x, after the reboot, the startup process hung trying to mount an NFS share.
+a start job is running for /mnt/location
+To resolve this, I had to boot into recovery mode.
+Hold left shift at startup
+Then edit the fstab file
+nano /etc/fstab
+And removed the NFS shares I was mounting on startup.
+I learned this is what the noauto option is for when mounting a share." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://peroty.github.io/Learning"><img class="app-header-avatar" src="/Learning/avatar.jpg" alt="John Doe" /></a>
+      <h1>Learning Linux</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Ubuntu hangs trying to mount a share</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 1, 0001
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <p>After upgrading my Ubuntu desktop box from 18.04 to 20.x, after the reboot, the startup process hung trying to mount an NFS share.</p>
+<p><code>a start job is running for /mnt/location</code></p>
+<p>To resolve this, I had to boot into recovery mode.</p>
+<p><code>Hold left shift at startup</code></p>
+<p>Then edit the fstab file</p>
+<p><code>nano /etc/fstab</code></p>
+<p>And removed the NFS shares I was mounting on startup.</p>
+<p>I learned this is what the <code>noauto</code> option is for when mounting a share. It won't mount the share at startup so it will prevent the machine from hanging like this.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

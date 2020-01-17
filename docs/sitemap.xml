@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/</loc>
+    <lastmod>2019-12-20T10:04:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/posts/</loc>
+    <lastmod>2019-12-20T10:04:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/posts/dec20-links/</loc>
+    <lastmod>2019-12-20T10:04:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/posts/millennial-lifestyle/</loc>
+    <lastmod>2019-12-16T22:16:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/posts/hello-world/</loc>
+    <lastmod>2019-12-16T21:59:52-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://peroty.github.io/Learning/posts/ubuntu-hanging-after-upgrade/</loc>
+  </url>
+  
+</urlset>

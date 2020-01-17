@@ -1,0 +1,24 @@
+baseURL = "https://peroty.github.io/Learning"
+languageCode = "en-us"
+title = "Learning Linux"
+theme = "m10c"
+paginate = 5
+publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xHTML = false
